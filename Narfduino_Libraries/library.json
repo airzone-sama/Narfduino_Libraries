@@ -1,0 +1,15 @@
+{
+  "name": "Narfduino",
+  "keywords": "narfduino, half bridge, nerf",
+  "description": "Narfduino manages the common functionality built into the Narfduino Board - Battery Monitoring, Half-H-Bridge, and Brushless signal generation",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/airzone-sama/NarfduinoLibrary.git"
+  },
+  "frameworks": "arduino",
+  "platforms":
+  [
+    "atmelavr"
+  ]
+}
