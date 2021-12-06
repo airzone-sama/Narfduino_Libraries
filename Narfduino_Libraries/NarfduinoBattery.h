@@ -69,8 +69,8 @@ class NarfduinoBattery
 {
   public:
     // Constructors   
-    Narfduino( byte _BatteryPin ); // Use if you want to override the default pin.
-    Narfduino();
+    NarfduinoBattery( byte _BatteryPin ); // Use if you want to override the default pin.
+    NarfduinoBattery();
 
 
     // ***************************************
