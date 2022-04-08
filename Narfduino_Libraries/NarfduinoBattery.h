@@ -17,6 +17,9 @@
  *  
  */
 
+#ifndef _NARFDUINO_BATTERY_LIB
+#define  _NARFDUINO_BATTERY_LIB
+ 
 #include "Arduino.h"
 
 // Default Definitions
@@ -69,8 +72,8 @@ class NarfduinoBattery
 {
   public:
     // Constructors   
-    Narfduino( byte _BatteryPin ); // Use if you want to override the default pin.
-    Narfduino();
+    NarfduinoBattery( byte _BatteryPin ); // Use if you want to override the default pin.
+    NarfduinoBattery();
 
 
     // ***************************************
@@ -117,3 +120,5 @@ class NarfduinoBattery
     float BatteryMinVoltage;
     byte BatteryS = 3;    
 };
+
+#endif 

@@ -24,6 +24,9 @@
  *  
  */
 
+#ifndef  _NARFDUINO_BRIDGE_LIBRARY
+#define  _NARFDUINO_BRIDGE_LIBRARY
+
 #include "Arduino.h"
 
 // Default Definitions
@@ -134,3 +137,5 @@ class NarfduinoBridge
       byte BridgeStopPin = 255;
       bool AntiJamEnabled = true; 
 };
+
+#endif 

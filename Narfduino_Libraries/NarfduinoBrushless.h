@@ -16,11 +16,14 @@
  *  
  */
 
+#ifndef _NARFDUINO_BRUSHLESS_H 
+#define _NARFDUINO_BRUSHLESS_H 
+
 #include "Arduino.h"
 
 // Uncomment these (or add to your header) to enable brushless / brushed ESC's on the respective pins.
-// #define _NARFDUINO_ENABLE_BRUSHLESS_9
-// #define _NARFDUINO_ENABLE_BRUSHLESS_10
+#define _NARFDUINO_ENABLE_BRUSHLESS_9
+#define _NARFDUINO_ENABLE_BRUSHLESS_10
 
 // The pins are fixed.
 #define _NARFDUINO_PIN_MOTOR_9 9
@@ -38,3 +41,5 @@ class NarfduinoBrushless
     void UpdateSpeed( int NewSpeed );
 
 };
+
+#endif

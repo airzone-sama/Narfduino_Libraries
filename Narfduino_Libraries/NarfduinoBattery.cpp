@@ -21,14 +21,14 @@
 #include "NarfduinoBattery.h"
 
 
-NarfduinoBattery::Narfduino( byte _BatteryPin )
+NarfduinoBattery::NarfduinoBattery( byte _BatteryPin )
 {
   BatteryPin = _BatteryPin;
 }
 
-NarfduinoBattery::Narfduino()
+NarfduinoBattery::NarfduinoBattery()
 {
-  Narfduino( _NARFDUINO_PIN_BATTERY );
+  BatteryPin = _NARFDUINO_PIN_BATTERY;
 }
 
 // Call this once, to initialise the library.
